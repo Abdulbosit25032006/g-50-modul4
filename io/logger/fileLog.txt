@@ -1,0 +1,3 @@
+янв. 25, 2025 9:22:04 PM lesson9.LoggerTest main
+WARNING: This info log test
+
