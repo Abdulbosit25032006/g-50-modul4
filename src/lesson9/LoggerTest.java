@@ -27,6 +27,6 @@ public class LoggerTest {
         logger.log(Level.WARNING,"This info log test");
 
         logger.log(new LogRecord(Level.WARNING,"bu log record orqali yozildi"));
-
+//nma gap
     }
 }
