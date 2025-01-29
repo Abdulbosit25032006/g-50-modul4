@@ -1,3 +1,12 @@
-янв. 25, 2025 9:22:04 PM lesson9.LoggerTest main
+-> 27.01.2025T21:42:18 lesson10.LoggerTest 1
 WARNING: This info log test
+-> 27.01.2025T21:42:18 lesson10.LoggerTest 1
+INFO: info ... 
+-> 27.01.2025T21:42:18 lesson10.LoggerTest 1
+SEVERE: severe ...
+-> 27.01.2025T21:42:18 lesson10.LoggerTest 1
+SEVERE: exception
+java.lang.RuntimeException: exception
+	at lesson10.LoggerTest.exception(LoggerTest.java:52)
+	at lesson10.LoggerTest.main(LoggerTest.java:44)
 

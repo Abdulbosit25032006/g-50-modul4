@@ -18,9 +18,10 @@ public class SearchingFile {
     public static void searchingFiles(File file, String fileName) {
 
         if (file.isDirectory()) {
+
             for (File oneFile : Objects.requireNonNull(file.listFiles())) {
                 if (equals(oneFile.getAbsoluteFile().getName(), fileName)) {
-                    System.out.println(oneFile.getAbsoluteFile());
+                    System.out.println(oneFile.getAbsoluteFile().getName());
                 }
                 if (file.isDirectory()) {
                     searchingFiles(oneFile, fileName);
