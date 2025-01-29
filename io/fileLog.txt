@@ -1,0 +1,5 @@
+2025-01-29 SEVERE
+exception
+java.lang.RuntimeException: exception
+	at Imtihon.example1.task4.MyLoggerTest.exception(MyLoggerTest.java:41)
+	at Imtihon.example1.task4.MyLoggerTest.main(MyLoggerTest.java:27)
